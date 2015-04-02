@@ -1,0 +1,8 @@
+源码包：org.mozilla.javascript
+源码包：com.yahoo.platform.yui.compressor
+
+
+支持包：/tool/WebRoot/WEB-INF/lib/yui-jargs-1.0.jar
+支持包：/tool/WebRoot/WEB-INF/lib/yui-rhino-1.6R7.jar
+
+工具包：me.utils.yui
