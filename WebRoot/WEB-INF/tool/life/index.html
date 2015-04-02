@@ -1,0 +1,21 @@
+<#include "/WEB-INF/comm/_layout.html"/>
+<@layout info>
+
+
+
+
+</@layout>
+<script type="text/javascript">
+	$(function(){
+		$.ajax({
+			type:'POST',
+			url:"http://api.map.baidu.com/telematics/v3/weather?location=北京&output=json&ak=E1o7e17pscccvKUeediMX33N",
+			dataType:'json',
+			success:function(data){
+				console.log(data);
+			}
+			
+		});
+	});
+
+</script>

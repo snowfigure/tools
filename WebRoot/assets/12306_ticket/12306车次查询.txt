@@ -1,0 +1,3 @@
+【车次】https://kyfw.12306.cn/otn/leftTicket/query?leftTicketDTO.train_date=2015-05-20&leftTicketDTO.from_station=BJP&leftTicketDTO.to_station=SHH&purpose_codes=ADULT
+过滤的时候只过滤车辆是【始发】---【终点】的车票
+【时刻】https://kyfw.12306.cn/otn/czxx/queryByTrainNo?train_no=240000G1050C&from_station_telecode=VNP&to_station_telecode=AOH&depart_date=2015-05-20

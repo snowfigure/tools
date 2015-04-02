@@ -1,0 +1,56 @@
+<#include "/WEB-INF/comm/_layout.html"/>
+<@layout info>
+
+<div class="panel panel-default">
+	<div class="panel-heading">
+		银行账号归属地查询
+	</div>
+	<div class="panel-body">
+		<div class="col-xs-12 col-sm-6 col-md-9">
+			<input type="text" class="form-control" id="bankno" placeholder="请输入银行卡编号（至少前10位）" value="6223091100989751">
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-3">
+			<button type="button" class="btn btn-info btn-block" id='search'>归属地查询</button>
+		</div>
+	</div>
+	<div class="panel-body">
+		<div class="alert alert-success" id="result">输入你查询的银行卡号</div>
+	</div>
+</div>
+
+<div style="clear:both;"></div>
+<div class="panel panel-default">
+	<div class="panel-heading">
+		介绍
+	</div>
+	<div class="panel-body">
+		银行账号归属地查询基于<a href="http://my.oschina.net/emaster" target='_blank' type="button" class="btn btn-default">@e代宗师</a>
+		提供的<a href="http://www.oschina.net/code/snippet_862068_45025" target='_blank' type="button" class="btn btn-default">依据银行卡号获取银行信息php代码</a>进行的二次开发。
+	</div>
+</div>
+
+</@layout>
+<script src="/assets/tool/bank.js"></script>
+<script type="text/javascript">
+	$(function(){
+		$('#search').bind("click",function(){
+			var no = $("#bankno").val();
+			if(no==null || no=="" || no=="undefined"){
+				$("#bankno").focus();
+				return;
+			}
+			var result = null;
+			for(var i=10;i>=2;i--){
+				result = map["b"+no.substr(0,i)];
+				if(result!=null && result!="" && result!="undefined")break;
+			}
+			if(result==null || result=="" || result=="undefined"){
+				$('#result').html("暂时不支持此类银行卡的查询");
+			}else{
+				$('#result').html("查询结果：" + result);
+			}
+			console.log(result);
+		});
+	});
+
+</script>

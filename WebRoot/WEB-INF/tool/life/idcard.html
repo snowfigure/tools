@@ -1,0 +1,73 @@
+<#include "/WEB-INF/comm/_layout.html"/>
+<@layout info>
+
+<div class="col-xs-12 col-sm-6 col-md-6">
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			（大陆）身份证归属地查询
+		</div>
+		<div class="panel-body">
+			<div class="col-xs-12 col-sm-6 col-md-7">
+				<input type="text" class="form-control" id="mlcardno" placeholder="请输入大陆身份证（15位或者18位）" value="110105197807040017">
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-5">
+				<button type="button" class="btn btn-info btn-block" id='mlcardsearch'>身份证归属地查询</button>
+			</div>
+		</div>
+		<div class="panel-body">
+			<div class="alert alert-success" id="mlcardresult">输入你查询的大陆身份证编号</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="col-xs-12 col-sm-6 col-md-6">
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			（大陆）身份证15位升级18位
+		</div>
+		<div class="panel-body">
+			<div class="col-xs-12 col-sm-6 col-md-7">
+				<input type="text" class="form-control" id="mlcardno_15" placeholder="请输入大陆身份证（15位）" value="370802940221002">
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-5">
+				<button type="button" class="btn btn-info btn-block" id='mlcardno_15_search'>身份证升级</button>
+			</div>
+		</div>
+		<div class="panel-body">
+			<div class="alert alert-success" id="mlcardno_15_result">输入15位大陆身份证编号</div>
+		</div>
+	</div>
+</div>
+<div style="clear: both;"></div>
+<div  class="col-xs-12 col-sm-6 col-md-6">
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			（大陆）身份证随机生成
+		</div>
+		<div class="panel-body">
+			<div class="col-xs-12 col-sm-6 col-md-7">
+				<input type="text" class="form-control" id="mlcardno_generate" placeholder="随机生成身份证编号" value="">
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-5">
+				<button type="button" class="btn btn-info btn-block" id='mlcardno_generate_search'>随机生成省份证号码</button>
+			</div>
+		</div>
+		<div class="panel-body">
+			<div class="alert alert-success" id="mlcardno_generate_result">请点击随机生成按钮</div>
+		</div>
+	</div>
+</div>
+
+<div style="clear:both;"></div>
+<div class="panel panel-default">
+	<div class="panel-heading">
+		介绍
+	</div>
+	<div class="panel-body">
+		身份证归属地查询中的身份证校验是基于<a href="http://my.oschina.net/fcrpg2008" target='_blank' type="button" class="btn btn-default">@阿影</a>
+		提供的<a href="http://www.oschina.net/code/snippet_1611_2881" target='_blank' type="button" class="btn btn-default">Java的身份证号码工具类</a>进行的二次开发。
+	</div>
+</div>
+</@layout>
+<script src="/assets/tool/idcard.js"></script>

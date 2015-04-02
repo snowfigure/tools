@@ -1,0 +1,82 @@
+<#include "/WEB-INF/comm/_layout.html"/>
+<@layout info>
+	<div class="col-xs-12 col-sm-12 col-md-12">
+		<div class="panel panel-default">
+			<div class="panel-heading"  style="text-align: center;">
+				${info.title}
+			</div>
+		</div>
+	</div>
+	<div style="clear: both;"></div>
+	<div class="col-xs-12 col-sm-6 col-md-6">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				原始数据
+			</div>
+			<div class="panel-body">
+				<textarea class="form-control" rows="16" id='orgin'></textarea>
+				<button type="button" class="btn btn-info btn-lg btn-block" id='format'>XML格式化 </button>
+			</div>
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-6 col-md-6">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				压缩数据
+			</div>
+			<div class="panel-body">
+				<textarea class="form-control" rows="16" id='result'></textarea>
+				<button type="button" class="btn btn-info btn-lg btn-block" id='compress'>XML压缩 </button>
+			</div>
+		</div>
+	</div>
+	<div style="clear:both;"></div>
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			介绍
+		</div>
+		<div class="panel-body">
+			XML代码格式化基于<a href="http://my.oschina.net/zhangthe9" target='_blank' class="btn btn-default">@ddatsh</a>
+			提供的<a href="http://www.oschina.net/code/snippet_17793_4733" target='_blank' class="btn btn-default">xml格式化</a>进行的二次开发。<br/>
+			XML代码压缩基于<a href="https://github.com/yui" target='_blank' class="btn btn-default">@yui</a>
+			提供的<a href="https://github.com/yui/yuicompressor" target='_blank' class="btn btn-default">yuicompressor</a>进行的二次开发。
+		</div>
+	</div>
+</@layout>
+
+<script type="text/javascript">
+	$(function(){
+		$('#_format').addClass('active');
+		$('#format').bind('click',function(){
+			var source = $('#orgin').val();
+			$.ajax({
+				type:'POST',
+				url:'/format/xml/',
+				data:{
+					source:source,
+					type:0
+				},
+				success:function(data){
+					$('#result').val(data);
+				}
+			});
+		});
+		
+		
+		$('#compress').bind('click',function(){
+			var source = $('#result').val();
+			$.ajax({
+				type:'POST',
+				url:'/format/css/',
+				data:{
+					source:source,
+					type:0
+				},
+				success:function(data){
+					$('#orgin').val(data);
+				}
+			});
+		});
+		
+	});
+</script>

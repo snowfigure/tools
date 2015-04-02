@@ -1,0 +1,80 @@
+<#include "/WEB-INF/comm/_layout.html"/>
+<@layout info>
+	<div class="col-xs-12 col-sm-12 col-md-12">
+		<div class="panel panel-default">
+			<div class="panel-heading"  style="text-align: center;">
+				${info.title}
+			</div>
+		</div>
+	</div>
+	<div style="clear: both;"></div>
+	<div class="col-xs-12 col-sm-6 col-md-6">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				原始数据
+			</div>
+			<div class="panel-body">
+				<textarea class="form-control" rows="16" id='orgin'></textarea>
+				<button type="button" class="btn btn-info btn-lg col-xs-6 col-sm-6 col-md-6" id='compress'>压缩代码 </button>
+				<button type="button" class="btn btn-info btn-lg col-xs-6 col-sm-6 col-md-6" id='compress_m'>混淆代码 </button>
+			</div>
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-6 col-md-6">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				压缩数据
+			</div>
+			<div class="panel-body">
+				<textarea class="form-control" rows="16" id='result'></textarea>
+				<button type="button" class="btn btn-info btn-lg btn-block">JS格式化（功能未实现） </button>
+			</div>
+		</div>
+	</div>
+	<div style="clear:both;"></div>
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			介绍
+		</div>
+		<div class="panel-body">
+			JS代码压缩基于<a href="https://github.com/yui" target='_blank'  class="btn btn-default">@yui</a>
+			提供的<a href="https://github.com/yui/yuicompressor" target='_blank'  class="btn btn-default">yuicompressor</a>进行的二次开发。
+		</div>
+	</div>	
+</@layout>
+
+<script type="text/javascript">
+	$(function(){
+		$('#_format').addClass('active');
+		$('#compress').bind('click',function(){
+			var source = $('#orgin').val();
+			$.ajax({
+				type:'POST',
+				url:'/format/js/',
+				data:{
+					source:source,
+					type:0,
+					munge:false
+				},
+				success:function(data){
+					$('#result').val(data);
+				}
+			});
+		});
+		$('#compress_m').bind('click',function(){
+			var source = $('#orgin').val();
+			$.ajax({
+				type:'POST',
+				url:'/format/js/',
+				data:{
+					source:source,
+					type:0,
+					munge:true
+				},
+				success:function(data){
+					$('#result').val(data);
+				}
+			});
+		});
+	});
+</script>

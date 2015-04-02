@@ -1,0 +1,77 @@
+<#include "/WEB-INF/comm/_layout.html"/>
+<@layout info>
+	<div class="col-xs-12 col-sm-12 col-md-12">
+		<div class="panel panel-default">
+			<div class="panel-heading"  style="text-align: center;">
+				${info.title}
+			</div>
+		</div>
+	</div>
+	<div style="clear: both;"></div>
+	<div class="col-xs-12 col-sm-6 col-md-6">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				翻译成莫斯密码
+			</div>
+			<div class="panel-body">
+				<textarea class="form-control" rows="16" id='orgin'>I LOVE 791211.com</textarea>
+				<button type="button" class="btn btn-info btn-lg btn-block" id='compress'>翻译成莫斯密码</button>
+			</div>
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-6 col-md-6">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				翻译成字母
+			</div>
+			<div class="panel-body">
+				<textarea class="form-control" rows="16" id='result'></textarea>
+				<button type="button" class="btn btn-info btn-lg btn-block" id='uncompress'>翻译成字母 </button>
+			</div>
+		</div>
+	</div>
+	<div style="clear:both;"></div>
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			介绍
+		</div>
+		<div class="panel-body">
+			莫斯密码翻译基于<a href="http://baike.baidu.com/" target='_blank' type="button" class="btn btn-default">@百度百科</a>
+			提供的<a href="http://baike.baidu.com/view/84585.htm?fromtitle=%E6%91%A9%E6%96%AF%E5%AF%86%E7%A0%81&fromid=397016&type=syn" target='_blank' type="button" class="btn btn-default">摩尔斯电码</a>介绍进行的二次开发。
+		</div>
+	</div>
+</@layout>
+
+<script type="text/javascript">
+	$(function(){
+		$('#compress').bind('click',function(){
+			var source = $('#orgin').val();
+			$.ajax({
+				type:'POST',
+				url:'/encrypt/morse/',
+				data:{
+					source:source,
+					type:0
+				},
+				success:function(data){
+					$('#result').val(data);
+				}
+			});
+		});
+		
+		$('#uncompress').bind('click',function(){
+			var source = $('#result').val();
+			$.ajax({
+				type:'POST',
+				url:'/encrypt/morse/',
+				data:{
+					source:source,
+					type:1
+				},
+				success:function(data){
+					$('#orgin').val(data);
+				}
+			});
+		});
+	});
+</script>

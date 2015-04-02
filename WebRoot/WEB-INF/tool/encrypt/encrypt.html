@@ -1,0 +1,113 @@
+<#include "/WEB-INF/comm/_layout.html"/>
+<@layout info>
+
+<div class="panel panel-default">
+	<div class="panel-heading">
+		通用加密
+	</div>
+	<div class="panel-body">
+		<div class="col-xs-12 col-sm-6 col-md-9">
+			<input type="text" class="form-control" id="code" placeholder="请输入待加密字符串" value="791211.com">
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-3">
+			<button type="button" class="btn btn-info btn-block" id='search'>字符串加密</button>
+		</div>
+	</div>
+	<div class="panel-body">
+		<div class="alert alert-success" id="result">字符串加密结果</div>
+
+
+<table class="table table-hover table-bordered">
+	<tr>
+		<th class="keyRow" style="width: 20%">加密方式</th>
+		<th style="width: 80%">加密结果</th>
+	</tr>
+	<tr>
+		<td class="keyRow">常规32位MD5大写</td>
+		<td>
+			<textarea class="form-control" rows="2" id='common_32_md5_up'></textarea>
+		</td>
+	</tr>
+	<tr>
+		<td class="keyRow">二次32位MD5大写</td>
+		<td>
+			<textarea class="form-control" rows="2" id='second_32_md5_up'></textarea>
+		</td>
+	</tr>
+	<tr>
+		<td class="keyRow">常规32位MD4大写</td>
+		<td>
+			<textarea class="form-control" rows="2" id='common_32_md4_up'></textarea>
+		</td>
+	</tr>
+	<tr>
+		<td class="keyRow">常规40位SHA1大写</td>
+		<td>
+			<textarea class="form-control" rows="2" id='common_40_sha1_up'></textarea>
+		</td>
+	</tr>
+	<tr>
+		<td class="keyRow">SHA-2 256哈希加密</td>
+		<td>
+			<textarea class="form-control" rows="3"  id='sha2_265'></textarea>
+		</td>
+	</tr>
+	<tr>
+		<td class="keyRow">SHA-2 512哈希加密</td>
+		<td>
+			<textarea class="form-control" rows="3" id='sha2_512'></textarea>
+		</td>
+	</tr>
+</table>
+
+		
+	</div>
+</div>
+
+</@layout>
+<script src="/assets/encryp/md4.js"></script>
+<script src="/assets/encryp/md5.js"></script>
+<script src="/assets/encryp/sha1.js"></script>
+<script src="/assets/encryp/sha256.js"></script>
+<script src="/assets/encryp/sha512.js"></script>
+<script src="/assets/encryp/sha3.js"></script>
+<script src="/assets/encryp/ripemd160.js"></script>
+
+<script type="text/javascript">
+	$(function(){
+		
+		//$(document).attr('title','在线工具-MD5加密|MD4加密|SHA1加密|SHA-2 256加密|SHA-2 512加密');
+		
+		
+		$('#search').bind("click",function(){
+			var no = $("#code").val();
+			if(no==null || no=="" || no=="undefined"){
+				$("#code").focus();
+				$("#common_32_md5_up").val('');
+				$("#second_32_md5_up").val('');
+				$("#common_40_sha1_up").val('');
+				$("#sha2_265").val('');
+				$("#sha2_512").val('');
+				return;
+			}
+			var common_md5 = hex_md5(no);
+			$("#common_32_md5_up").val(common_md5.toUpperCase());
+			
+			var second_md5 = hex_md5(common_md5);
+			$("#second_32_md5_up").val(second_md5.toUpperCase());
+			
+			var common_md4 = hex_md4(no);
+			$("#common_32_md4_up").val(common_md4.toUpperCase());
+			
+			var common_sha1 = hex_sha1(no);
+			$("#common_40_sha1_up").val(common_sha1.toUpperCase());
+			
+			$("#sha2_265").val(sha256_digest(no));
+			$("#sha2_512").val(hex_sha512(no));
+			
+		});
+		$('#search').click();
+	});
+
+</script>
+

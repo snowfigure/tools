@@ -1,0 +1,115 @@
+body{
+	margin-top: 0px;
+	margin-bottom: 50px;
+}
+a{
+	text-decoration:none;
+}
+.panel #title{
+	font-weight: bold;
+}
+.panel #panel-abstract p{
+	text-indent: 2em;
+	font-size: 13px;
+}
+
+.panel #panel-abstract div{
+	font-size: 12px;
+	color: #999CA8;
+}
+.panel #panel-abstract #tags{
+	text-align: left;
+}
+.panel #panel-abstract #atags span{
+	padding:6px;
+	margin-right: 2px;
+	line-height: 3;
+	font-weight: normal;
+}
+.panel #panel-tags span{
+	padding:6px;
+	margin-right: 2px;
+	line-height: 3;
+	font-weight: normal;
+}
+.panel #panel-tags span a{
+	text-decoration:none;
+	color:#FFF;
+}
+.panel #panel-abstract #atags span a{
+	text-decoration:none;
+	color:#FFF;
+}
+.panel #panel-abstract #posts{
+	text-align: right;
+}
+#article #title {
+	text-align:center;
+	font-weight: bold;
+}
+#article #info span{
+	margin-left: 10px;
+	margin-right: 10px;
+	color: #3c763d;
+	text-decoration:none;
+}
+#article #info span a{
+	color: #3c763d;
+	text-decoration:none;
+}
+#articleList .panel-heading a{
+	text-decoration:none;
+}
+#articleList .panel-heading #title{
+	
+}
+#articleList .panel-heading #catalog{
+	float: right;
+}
+#articleDetail h4{
+	background: #F5F5F5;
+	border-left: 3px solid #57BAE8;
+	color: #107CC7;
+	font-size: 20px;
+	line-height: 42px;
+	text-indent: 0;
+	padding-left: 20px;
+	position: relative;
+	font-weight: bold;
+	margin: 10px -15px 10px -18px;
+}
+#articleDetail a{
+	border-radius: 3px;
+	background-color: #C6DEF8;
+	background-image:url("/img/go.png");
+	background-repeat:no-repeat;
+	text-decoration:none;
+	color: #2866B6;
+	padding: 15px 20px 15px 45px;
+	line-height: 43px;
+	margin-left: -32px;
+}
+#articleDetail p{
+	text-indent: 32px;
+}
+
+#tags span span {
+	font-size: 13px;
+	padding:3px 10px 7px;
+	font-weight: normal;
+}
+#tags span a{
+	border-radius: 3px;
+	background-color: #337AB7;
+	padding: 5px 10px 8px 10px;
+	line-height: 43px;
+	color: #FFF;
+	text-decoration:none;
+}
+.pill-div{
+	visibility:hidden;
+	margin-top: -20px;
+	padding-top: 20px;
+	position:absolute;
+	height:87%;
+}

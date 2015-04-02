@@ -1,0 +1,47 @@
+body{
+	margin-top: 0px;
+	margin-bottom: 50px;
+}
+a{
+	text-decoration:none;
+}
+th{
+	color:#006CCA;
+	text-align: center;
+	font-size: 14px;
+}
+caption{
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.keyRow{
+	background-color: #F4F4F4;
+}
+
+.uitools{
+	float: right;
+}
+
+.label-pollution-perfect {/*优*/
+	background-color: #4CC74C;
+}
+.label-pollution-good {/*良*/
+	background-color: #AFDB00;
+}
+.label-pollution-light {/*轻度污染*/
+	background-color: #FF9900;
+}
+.label-pollution-medium {/*中度污染*/
+	background-color: #F55345;
+}
+.label-pollution-heavy  {
+	background-color: #337ab7;
+}
+.label-pollution-serious  {
+	background-color: #337ab7;
+}
+
+
+

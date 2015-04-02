@@ -1,0 +1,86 @@
+<#include "/WEB-INF/comm/_layout.html"/>
+<@layout info>
+
+<div class="panel panel-default">
+	<div class="panel-heading">
+		国内城市天气预报查询
+	</div>
+	<div class="panel-body">
+		<div class="col-xs-12 col-sm-6 col-md-9">
+			<input type="text" class="form-control" id="location" placeholder="请输入查询城市" value="南京"/>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-3">
+			<button type="button" class="btn btn-info btn-block" id='search'>天气查询</button>
+		</div>
+	</div>
+	<div class="panel-body">
+		<div class="col-xs-12 col-sm-12 col-md-12">
+			<div class="alert alert-success" id="result"></div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-3">
+			<div class="alert alert-success" id="result0"></div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-3">
+			<div class="alert alert-success" id="result1"></div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-3">
+			<div class="alert alert-success" id="result2"></div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-3">
+			<div class="alert alert-success" id="result3"></div>
+		</div>
+	</div>
+</div>
+<div style="clear:both;"></div>
+<div class="panel panel-default">
+	<div class="panel-heading">
+		介绍
+	</div>
+	<div class="panel-body">
+		国内城市天气预报查询基于<a href="http://developer.baidu.com/" target='_blank' type="button" class="btn btn-default">百度LBS开放平台</a>
+		提供的<a href="http://developer.baidu.com/map/index.php?title=car" target='_blank' type="button" class="btn btn-default">车联网API</a>进行开发。
+	</div>
+</div>
+</@layout>
+<script type="text/javascript">
+	$(function(){
+		$('#search').bind("click",function(){
+			var location = $("#location").val();
+			$.ajax({
+				type:'POST',
+				url:'/life/weather/' + location,
+				dataType:'json',
+				success:function(data){
+					if(data.status!="success") return;
+					var detail = data.results[0].weather_data;
+					var pm25 = data.results[0].pm25;
+					var _html=	data.results[0].currentCity 	+ "&nbsp&nbsp" + detail[0].date	+ "&nbsp&nbsp" + "空气质量:&nbsp&nbsp";
+					_html +="<span class='pm25 label label-";
+					if(pm25<=50){ 			_html+="pollution-perfect'>优";
+					}else if(pm25<=100){ 	_html+="pollution-good'>良";
+					}else if(pm25<=150){ 	_html+="pollution-light'>轻度污染";
+					}else if(pm25<=200){ 	_html+="pollution-medium'>中度污染";
+					}else if(pm25<=300){	_html+="pollution-heavy'>重度污染";
+					}else{ 					_html+="pollution-serious'>严重污染";
+					}
+					_html += "（"+ pm25 +"）</span>";
+					$("#result").html(_html);
+					
+					for(var i=0;i<4;i++){
+						var html = "<p>"+detail[i].date + "</p><br/>";
+						html +="<p><img src='"+detail[i].dayPictureUrl + "'/>&nbsp&nbsp&nbsp&nbsp" 
+							+ detail[i].weather + "&nbsp&nbsp&nbsp&nbsp" 
+							+ detail[i].temperature + 
+							"</p><br/>";
+						html += detail[i].wind;
+						$("#result" + i).html(html);
+					}
+				}
+			});
+			
+		});
+		
+		$('#search').click();
+	});
+
+</script>

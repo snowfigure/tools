@@ -1,0 +1,1 @@
+var nav="<li><a href='#'>软件开发</a></li><li><a href='#'>操作系统</a></li><li><a href='#'>教程文档</a></li>";
