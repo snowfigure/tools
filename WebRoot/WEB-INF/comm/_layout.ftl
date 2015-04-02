@@ -16,7 +16,7 @@
        <script src="/assets/ext/respond.min.js"></script>
     <![endif]-->
     <#-- base href="${CPATH}" / -->
-    <#include "/WEB-INF/comm/_baidu_tongji.html"/>
+    <#include "/WEB-INF/comm/_baidu_tongji.ftl"/>
 </head>
 <body>
 	<a href="top"></a>
@@ -34,7 +34,7 @@
 	   </div>
 		<div class="collapse navbar-collapse" id="top-navbar-collapse">
 		      <ul class="nav navbar-nav">
-					<#include "/WEB-INF/comm/_navs.html"/>
+					<#include "/WEB-INF/comm/_navs.ftl"/>
 		      </ul>
 		 </div>
 	</nav>
@@ -59,7 +59,7 @@
 							data-title="${info.title}" 
 							data-url="http://tools.791211.com/${info.suburl}"></div>
 						<!-- 多说评论框 end -->
-						<#include "/WEB-INF/comm/_duoshuo.html"/>
+						<#include "/WEB-INF/comm/_duoshuo.ftl"/>
 					</div>
 				</div>
 			</div>

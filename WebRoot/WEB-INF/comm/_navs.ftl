@@ -4,7 +4,7 @@
    <a href="#" class="dropdown-toggle" data-toggle="dropdown" >
       	对照表 <b class="caret"></b>
    </a>
-   <ul class="dropdown-menu" id='dropdownmenu'>
+   <ul class="dropdown-menu">
    		<li><a href="/contrast/hct">HTTP Content-type</a></li>
    		<li><a href="/contrast/hec">HTML转义字符</a></li>
    		<li><a href="/contrast/rgb">RGB颜色参考</a></li>
@@ -18,7 +18,7 @@
    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
       	代码处理<b class="caret"></b>
    </a>
-   <ul class="dropdown-menu" id='dropdownmenu'>
+   <ul class="dropdown-menu">
    		<li><a href="/format/css">CSS格式化</a></li>
    		<li><a href="/format/js">JS格式化</a></li>
    		<li><a href="/format/xml">XML格式化</a></li>
@@ -29,7 +29,7 @@
    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
       	加密转码 <b class="caret"></b>
    </a>
-   <ul class="dropdown-menu" id='dropdownmenu'>
+   <ul class="dropdown-menu" >
    		<li><a href="/encrypt/ecp">通用加密工具</a></li>
    		<li><a href="/encrypt/morse">摩斯密码翻译工具</a></li>
    		<li><a href="/encrypt/barcode">条码生成器</a></li>
@@ -42,7 +42,7 @@
    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
       	便民 <b class="caret"></b>
    </a>
-   <ul class="dropdown-menu" id='dropdownmenu'>
+   <ul class="dropdown-menu" >
    
    		<li><a href="/life/kuaidi">快递查询</a></li>
    		<li><a href="/life/bank">银行卡信息查询</a></li>
@@ -59,7 +59,7 @@
    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
       	站长工具<b class="caret"></b>
    </a>
-   <ul class="dropdown-menu" id='dropdownmenu'>
+   <ul class="dropdown-menu" >
    		<li><a href="/site/url">短链</a></li>
    		
    </ul>

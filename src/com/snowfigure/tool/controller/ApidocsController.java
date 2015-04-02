@@ -34,7 +34,7 @@ public class ApidocsController extends Controller{
 		
 		String html = root + "/WEB-INF/tool/apidoc/index.html" ;
 		String head = 
-		"<#include '/WEB-INF/comm/_layout.html'/>"+
+		"<#include '/WEB-INF/comm/_layout.ftl'/>"+
 		"<@layout info>"+
 		"	<table class='table table-bordered'>"+
 		"		<tr>"+
