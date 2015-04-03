@@ -32,7 +32,7 @@ public class ApidocsController extends Controller{
 		List<Apidocs> list = Apidocs.me.getAll();
 		String root = PathKit.getWebRootPath();
 		
-		String html = root + "/WEB-INF/tool/apidoc/index.html" ;
+		String html = root + "/WEB-INF/tool/apidoc/index.ftl" ;
 		String head = 
 		"<#include '/WEB-INF/comm/_layout.ftl'/>"+
 		"<@layout info>"+

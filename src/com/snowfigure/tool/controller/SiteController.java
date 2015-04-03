@@ -6,7 +6,7 @@ import com.jfinal.core.Controller;
 public class SiteController extends Controller{
 	public void index(){
 		setAttr("title", "首页");
-		render("/WEB-INF/tool/index.html");
+		render("/WEB-INF/tool/index.ftl");
 	}
 	public void url(){
 		setAttr("title", "新浪短链生成|短链还原");

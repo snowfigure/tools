@@ -8,7 +8,7 @@ import com.snowfigure.tool.config.C;
 
 public class EncryptController extends Controller{
 	public void index(){
-		render("/WEB-INF/tool/index.html");
+		render("/WEB-INF/tool/index.ftl");
 	}
 	public void ecp(){
 		setAttr("info", new Info(C.T_ECP, "_encrypt", "/encrypt/ecp", "ecp"));

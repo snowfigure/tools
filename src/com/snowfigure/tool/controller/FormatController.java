@@ -10,7 +10,7 @@ import com.snowfigure.tool.config.C;
 public class FormatController extends Controller{
 	public void index(){
 		setAttr("title", "首页");
-		render("/WEB-INF/tool/index.html");
+		render("/WEB-INF/tool/index.ftl");
 	}
 	/**
 	 * JS代码压缩、格式化
