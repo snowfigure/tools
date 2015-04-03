@@ -2,25 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1b6869c-3c3e-4ae7-b68e-3bd8b28f0fab" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/nav/0_comm.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/nav/1_tech.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/nav/2_webui.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/snowfigure/nav/config/C.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/snowfigure/nav/controller/NavController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/nav/_nav_layout.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/nav/_top_navs.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/nav/index.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebRoot/assets/nav/nav_layout.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/snowfigure/tool/ToolRoute.java" afterPath="$PROJECT_DIR$/src/com/snowfigure/tool/ToolRoute.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/comm/_layout.ftl" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/comm/_layout.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/comm/_navs.ftl" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/comm/_navs.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jfinal_demo.log" afterPath="$PROJECT_DIR$/jfinal_demo.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/assets/layout.css" afterPath="$PROJECT_DIR$/WebRoot/assets/layout.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Read.md" afterPath="$PROJECT_DIR$/Read.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tool.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="f1b6869c-3c3e-4ae7-b68e-3bd8b28f0fab" time="1428035960680" ignored="false" />
+    <file path="/Dummy.txt" changelist="f1b6869c-3c3e-4ae7-b68e-3bd8b28f0fab" time="1428065334060" ignored="false" />
     <file path="/Read.md" changelist="f1b6869c-3c3e-4ae7-b68e-3bd8b28f0fab" time="1427954496525" ignored="false" />
     <file path="/_layout.html" changelist="f1b6869c-3c3e-4ae7-b68e-3bd8b28f0fab" time="1427980353588" ignored="false" />
     <file path="/index.html" changelist="f1b6869c-3c3e-4ae7-b68e-3bd8b28f0fab" time="1427980852512" ignored="false" />
@@ -39,6 +27,7 @@
     <file path="/2_webui.ftl" changelist="f1b6869c-3c3e-4ae7-b68e-3bd8b28f0fab" time="1428063240102" ignored="false" />
     <file path="/_top_navs.ftl" changelist="f1b6869c-3c3e-4ae7-b68e-3bd8b28f0fab" time="1428062282954" ignored="false" />
     <file path="/_navs.ftl" changelist="f1b6869c-3c3e-4ae7-b68e-3bd8b28f0fab" time="1428063780192" ignored="false" />
+    <file path="/README.md" changelist="f1b6869c-3c3e-4ae7-b68e-3bd8b28f0fab" time="1428065622014" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +86,26 @@
     <favorites_list name="tool" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="Read.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Read.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="25" selection-start="59" selection-end="59" vertical-scroll-proportion="0.11130742">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -116,8 +124,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/WebRoot/WEB-INF/nav/index.html" />
-        <option value="$PROJECT_DIR$/src/com/snowfigure/nav/config/C.java" />
         <option value="$PROJECT_DIR$/WebRoot/assets/layout.css" />
         <option value="$PROJECT_DIR$/WebRoot/WEB-INF/comm/_nav_layout.ftl" />
         <option value="$PROJECT_DIR$/WebRoot/assets/nav/1_comm.ftl" />
@@ -132,6 +138,8 @@
         <option value="$PROJECT_DIR$/WebRoot/WEB-INF/comm/_layout.ftl" />
         <option value="$PROJECT_DIR$/WebRoot/WEB-INF/comm/_navs.ftl" />
         <option value="$PROJECT_DIR$/WebRoot/WEB-INF/nav/_nav_layout.ftl" />
+        <option value="$PROJECT_DIR$/Read.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -428,7 +436,11 @@
       <created>1428035969292</created>
       <updated>1428035969292</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="新增：导航页，完成初步框架">
+      <created>1428065340758</created>
+      <updated>1428065340758</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -463,7 +475,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32023808" sideWeight="0.49756494" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29166666" sideWeight="0.5008117" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297619" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -473,8 +485,8 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2215909" sideWeight="0.9583333" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.041666668" sideWeight="0.49675325" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2215909" sideWeight="0.7083333" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29166666" sideWeight="0.4935065" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="-1188" y="-209" width="1096" height="800" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -520,7 +532,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="FreeMarker模板变更--修改HTML模板后缀名-2" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增：导航页，完成初步框架" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -541,6 +553,7 @@
     <MESSAGE value="初次提交-首页版权信息" />
     <MESSAGE value="FreeMarker模板变更--修改HTML模板后缀名" />
     <MESSAGE value="FreeMarker模板变更--修改HTML模板后缀名-2" />
+    <MESSAGE value="新增：导航页，完成初步框架" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -550,22 +563,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/snowfigure/tool/config/C.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="86" selection-start="1301" selection-end="1378" vertical-scroll-proportion="0.3559322">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/snowfigure/nav/controller/NavController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="41" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/snowfigure/nav/config/C.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="28" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0">
@@ -662,6 +659,20 @@
     <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/nav/_nav_layout.ftl">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="71" selection-start="833" selection-end="833" vertical-scroll-proportion="0.308">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Read.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="25" selection-start="59" selection-end="59" vertical-scroll-proportion="0.11130742">
           <folding />
         </state>
       </provider>
