@@ -1,3 +1,4 @@
+<li id="_apidocs"><a href="/nav/">网址导航</a></li>
 <li id="_apidocs"><a href="/apidocs/">API文档</a></li>
 
 <li class="dropdown " id='_contrast'>

@@ -21,7 +21,7 @@
 <body>
 	<a href="top"></a>
 	<!-- 顶部菜单 开始 -->
-	<nav class="navbar navbar-default" role="navigation">
+	<nav class="navbar navbar-default navbar-inverse" role="navigation">
 		<div class="navbar-header">
 	      <button type="button" class="navbar-toggle" data-toggle="collapse" 
 	         data-target="#top-navbar-collapse">
@@ -30,7 +30,7 @@
 	         <span class="icon-bar"></span>
 	         <span class="icon-bar"></span>
 	      </button>
-	      <a class="navbar-brand" href="/">雪影工作室</a>
+	      <a class="navbar-brand" href="/"style="font-weight: bold">在线工具</a>
 	   </div>
 		<div class="collapse navbar-collapse" id="top-navbar-collapse">
 		      <ul class="nav navbar-nav">
@@ -66,7 +66,7 @@
 		</div>
 	</div>
 	
-	<nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+	<nav class="navbar navbar-default navbar-fixed-bottom navbar-inverse" role="navigation">
 		<div class="col-xs-12 col-sm-5 col-md-4 navbar-text">
 			&copy 2014 <a href='#'>在线工具</a>|
 			<a target="_blank" href='http://www.791211.com'>博客</a>|
@@ -93,7 +93,7 @@
 	<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
 	<script src="/assets/bootstrap/js/bootstrap.min.js"></script>
 	<script src="/assets/ext/_ext.js"></script>
-	
+
 <script type="text/javascript">
 	$(function(){
 		$('#${info.topurl}').addClass('active');
