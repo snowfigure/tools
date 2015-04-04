@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/assets/easyui/themes/bootstrap/easyui.css">
+    <link rel="stylesheet" type="text/css" href="/assets/easyui/themes/icon.css">
+    <link rel="stylesheet" type="text/css" href="/assets/layout.css">
+</head>
+<body>
+<div id='detail'>
+    <form id="form" method="post" style="margin: 10px 20px">
+        <input type="hidden" name="nav.id"/>
+        <div>
+            <label for="name" style="width:50px">名　 　称:</label>
+            <input class="nav" type="text" name="nav.name" data-options="required:true"/>
+        </div>
+        <div>
+            <label for="name" style="width:50px">分　 　类:</label>
+            <input id="cc" class="easyui-combobox" name="nav.pid"
+                   data-options="valueField:'id',textField:'name',url:'/cms/nav/nav_plist'">
+        </div>
+        <div>
+            <label for="name">网站 地址:</label>
+            <input class="nav" type="text" name="nav.url" id="_icon"  />
+        </div>
+        <div>
+            <label for="name">网站 介绍:</label>
+            <textarea class="nav" type="text" name="nav.info" id="_online"  rows="4" maxlength="20"></textarea>
+        </div>
+        <div>
+            <label for="name" style="width:50px">是否 常用:</label>
+            <input class="easyui-combobox" name="nav.iscomm"  data-options="valueField: 'id',textField: 'name',data: [{id: 1,name: '常用链接'},{id: 0,name: '非常用链接'}]" />
+        </div>
+    </form>
+
+</div>
+<table id="nav_dg"></table>
+<script type="text/javascript" src="/assets/easyui/jquery.min.js"></script>
+<script type="text/javascript" src="/assets/easyui/jquery.easyui.min.js"></script>
+<script type="text/javascript" src="/assets/cms/nav.js"></script>
+</body>
+</html>

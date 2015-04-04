@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="/assets/easyui/themes/bootstrap/easyui.css">
+	<link rel="stylesheet" type="text/css" href="/assets/easyui/themes/icon.css">
+	<link rel="stylesheet" type="text/css" href="/assets/layout.css">
+</head>
+<body>
+	<div id='detail'>
+		<form id="form" method="post" style="margin: 10px 20px">
+			<input type="hidden" name="apidocs.id"/>
+		    <div>
+		        <label for="name" style="width:50px">名　 　称:</label>
+		        <input class="apidocs" type="text" name="apidocs.name" data-options="required:true" style="width:200px"/>
+		        
+		    </div>
+		     <div>
+		        <label for="name">图标 地址:</label>
+		        <input class="apidocs" type="text" name="apidocs.icon" id="_icon"  />
+		    </div>
+		    <div>
+		        <label for="name">在线 地址:</label>
+		        <input class="apidocs" type="text" name="apidocs.online" id="_online"  />
+		    </div>
+		    <div>
+		        <label for="name">离线 地址:</label>
+		        <input class="apidocs" type="text" name="apidocs.offline"  id="_offline"/>
+		    </div>
+		     <div>
+		        <label for="name">在线adfly:</label>
+		        <input class="apidocs" type="text" name="apidocs.online_adfly"  id="_online_adfly" readonly="readonly" />
+		    </div>
+		    <div>
+		        <label for="name">离线adfly:</label>
+		        <input class="apidocs" type="text" name="apidocs.offline_adfly"  id="_offline_adfly"  readonly="readonly"/>
+		    </div>
+		</form>
+		<div style="margin: 5px 10px">
+			第一步：<a id="btn_adfly" class="easyui-linkbutton" data-options="iconCls:'icon-search'">生成adfly短链接</a>
+			第二步：<a id="btn_shorten" class="easyui-linkbutton" data-options="iconCls:'icon-search'">生成百度短链接</a>
+		</div>
+		
+	</div>
+	<table id="apidoc_dg"></table>
+	<script type="text/javascript" src="/assets/easyui/jquery.min.js"></script>
+	<script type="text/javascript" src="/assets/easyui/jquery.easyui.min.js"></script>
+	<script type="text/javascript" src="/assets/cms/apidocs.js"></script>
+</body>
+</html>
+

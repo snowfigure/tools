@@ -8,3 +8,12 @@ jdbcUrl = jdbc:mysql://localhost:3619/tools_791211?characterEncoding=utf8&zeroDa
 user = root
 password =FdqLbf791211
 devMode = true
+
+
+
+#adfly
+adfly_key=79de9393abd87a13a3dce9094ca0f592
+adfly_uid=8738735
+adfly_type=int
+adfly_domain=adf.
+adfly_apikey=79de9393abd87a13a3dce9094ca0f592

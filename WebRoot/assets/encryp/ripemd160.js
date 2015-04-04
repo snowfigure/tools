@@ -6,7 +6,7 @@ code.google.com/p/crypto-js/wiki/License
 */
 /*
 
-(c) 2012 by C?dric Mesnil. All rights reserved.
+(c) 2012 by ToolsConfig?dric Mesnil. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 

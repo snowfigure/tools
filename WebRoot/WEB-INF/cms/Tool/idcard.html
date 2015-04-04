@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="/assets/easyui/themes/bootstrap/easyui.css">
+	<link rel="stylesheet" type="text/css" href="/assets/easyui/themes/icon.css">
+	<link rel="stylesheet" type="text/css" href="/assets/layout.css">
+</head>
+<body>
+	<div id='detail'>
+		<form id="form" method="post" style="margin: 10px 20px">
+			<input type="hidden" name="idcardAreaCode.id"/>
+		    <div>
+		        <label for="name" style="width:50px">名　 　称:</label>
+		        <input class="idcardareacode" type="text" name="idcardAreaCode.code" data-options="required:true" style="width:200px"/>
+		        
+		    </div>
+		     <div>
+		        <label for="name">图标 地址:</label>
+		        <input class="idcardareacode" type="text" name="idcardAreaCode.address" id="_icon"  />
+		    </div>
+		</form>
+		
+	</div>
+	<table id="idcard_dg"></table>
+	<script type="text/javascript" src="/assets/easyui/jquery.min.js"></script>
+	<script type="text/javascript" src="/assets/easyui/jquery.easyui.min.js"></script>
+	<script type="text/javascript" src="/assets/cms/idcard.js"></script>
+</body>
+</html>
+
