@@ -2,123 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1b6869c-3c3e-4ae7-b68e-3bd8b28f0fab" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/commons-codec-1.10.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/jsoup-1.8.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/org.bouncycastle.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sf/kits/coder/AESCoder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sf/controller/apidoc/ApidocCMSController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sf/model/apidocs/Apidocs.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sf/kits/jsoup/Bean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sf/bean/cmmobile/ChinaMobileBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sf/config/ChinaMobileConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sf/service/cmmobile/ChinaMobileService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sf/kits/chinaMobile/ChinaMobileUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sf/model/cmmobile/Cmnumber.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sf/controller/cms/CmsController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sf/route/CmsRoute.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sf/config/Config.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sf/controller/tools/ContrastController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sf/kits/coder/DHCoder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sf/kits/easyui/DataGridJson.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sf/model/faceks/FaceksCatalog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sf/controller/fakes/FaceksController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sf/model/faceks/FaceksImg.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sf/route/FaceksRoute.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sf/service/faceks/FaceksService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sf/kits/file/FileUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sf/controller/idcard/IdcardController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sf/kits/file/ImageUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sf/controller/tools/IndexController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sf/kits/net/IpAddressUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sf/kits/map/MapUitl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sf/model/menu/Menu.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sf/controller/menu/MenuController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sf/model/nav/Nav.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sf/controller/nav/NavCMSController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sf/controller/nav/NavController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sf/kits/coder/Read.me" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sf/kits/jsoup/Read.me" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sf/kits/string/Read.me" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sf/model/cmmobile/Region.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sf/kits/string/StringUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sf/kits/time/TimeUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sf/kits/coder/Tmp.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sf/kits/easyui/TreeJson.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sf/kits/easyui/TreeLeaf.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sf/kits/easyui/TreeNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sf/controller/url/UrlController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sf/kits/net/UrlUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sf/kits/jsoup/W3cSchoolUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/cms/Tool/apidoc.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebRoot/assets/cms/apidocs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/cms/banner.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebRoot/assets/cms/cms.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/commons_codec_1_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/cms/copyright.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/cms/Tool/faceks.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/cms/Tool/idcard.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/cms/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/cms/Navs/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/jsoup_1_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/cms/nav.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebRoot/assets/cms/nav.js" />
-      <change type="DELETED" beforePath="C:\dev\My_Projects\tools\Read.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\dev\My_Projects\tools\src\com\snowfigure\common\Config.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\dev\My_Projects\tools\src\com\snowfigure\kits\net\IpAddressUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\dev\My_Projects\tools\src\com\snowfigure\model\tool\Apidocs.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\dev\My_Projects\tools\src\com\snowfigure\nav\controller\NavController.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\dev\My_Projects\tools\src\com\snowfigure\tool\controller\ContrastController.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\dev\My_Projects\tools\src\com\snowfigure\tool\controller\IndexController.java" afterPath="" />
-      <change type="MOVED" beforePath="C:\dev\My_Projects\tools\src\com\snowfigure\kits\Morse\MorseCodeUtil.java" afterPath="$PROJECT_DIR$/src/com/sf/kits/Morse/MorseCodeUtil.java" />
-      <change type="MOVED" beforePath="C:\dev\My_Projects\tools\src\com\snowfigure\kits\idcard\Idcard.java" afterPath="$PROJECT_DIR$/src/com/sf/kits/idcard/Idcard.java" />
-      <change type="MOVED" beforePath="C:\dev\My_Projects\tools\src\com\snowfigure\kits\idcard\IdcardUtils.java" afterPath="$PROJECT_DIR$/src/com/sf/kits/idcard/IdcardUtils.java" />
-      <change type="MOVED" beforePath="C:\dev\My_Projects\tools\src\com\snowfigure\kits\ipHelper\17monipdb.dat" afterPath="$PROJECT_DIR$/src/com/sf/kits/ipHelper/17monipdb.dat" />
-      <change type="MOVED" beforePath="C:\dev\My_Projects\tools\src\com\snowfigure\kits\ipHelper\IPDataHandler.java" afterPath="$PROJECT_DIR$/src/com/sf/kits/ipHelper/IPDataHandler.java" />
-      <change type="MOVED" beforePath="C:\dev\My_Projects\tools\src\com\snowfigure\kits\json\Json2BeanUtil.java" afterPath="$PROJECT_DIR$/src/com/sf/kits/json/Json2BeanUtil.java" />
-      <change type="MOVED" beforePath="C:\dev\My_Projects\tools\src\com\snowfigure\kits\json\Read.me" afterPath="$PROJECT_DIR$/src/com/sf/kits/json/Read.me" />
-      <change type="MOVED" beforePath="C:\dev\My_Projects\tools\src\com\snowfigure\kits\net\HttpDownloadUtil.java" afterPath="$PROJECT_DIR$/src/com/sf/kits/net/HttpDownloadUtil.java" />
-      <change type="MOVED" beforePath="C:\dev\My_Projects\tools\src\com\snowfigure\kits\net\HttpRequestUtil.java" afterPath="$PROJECT_DIR$/src/com/sf/kits/net/HttpRequestUtil.java" />
-      <change type="MOVED" beforePath="C:\dev\My_Projects\tools\src\com\snowfigure\kits\net\HttpsRequestUtil.java" afterPath="$PROJECT_DIR$/src/com/sf/kits/net/HttpsRequestUtil.java" />
-      <change type="MOVED" beforePath="C:\dev\My_Projects\tools\src\com\snowfigure\kits\net\TrustSSL.java" afterPath="$PROJECT_DIR$/src/com/sf/kits/net/TrustSSL.java" />
-      <change type="MOVED" beforePath="C:\dev\My_Projects\tools\src\com\snowfigure\kits\num\NumberUtil.java" afterPath="$PROJECT_DIR$/src/com/sf/kits/num/NumberUtil.java" />
-      <change type="MOVED" beforePath="C:\dev\My_Projects\tools\src\com\snowfigure\kits\string\Stream.java" afterPath="$PROJECT_DIR$/src/com/sf/kits/string/Stream.java" />
-      <change type="MOVED" beforePath="C:\dev\My_Projects\tools\src\com\snowfigure\kits\xml\XmlFormat.java" afterPath="$PROJECT_DIR$/src/com/sf/kits/xml/XmlFormat.java" />
-      <change type="MOVED" beforePath="C:\dev\My_Projects\tools\src\com\snowfigure\kits\yui\YuiUtil.java" afterPath="$PROJECT_DIR$/src/com/sf/kits/yui/YuiUtil.java" />
-      <change type="MOVED" beforePath="C:\dev\My_Projects\tools\src\com\snowfigure\model\tool\IdcardAreaCode.java" afterPath="$PROJECT_DIR$/src/com/sf/model/idCardAreaCode/IdcardAreaCode.java" />
-      <change type="MOVED" beforePath="C:\dev\My_Projects\tools\src\com\snowfigure\model\tool\ticket\Ticket_Stations.java" afterPath="$PROJECT_DIR$/src/com/sf/model/ticket/Ticket_Stations.java" />
-      <change type="MOVED" beforePath="C:\dev\My_Projects\tools\src\com\snowfigure\model\tool\ticket\Ticket_Train.java" afterPath="$PROJECT_DIR$/src/com/sf/model/ticket/Ticket_Train.java" />
-      <change type="MOVED" beforePath="C:\dev\My_Projects\tools\src\com\snowfigure\model\tool\ticket\Ticket_Trains.java" afterPath="$PROJECT_DIR$/src/com/sf/model/ticket/Ticket_Trains.java" />
-      <change type="MOVED" beforePath="C:\dev\My_Projects\tools\src\com\snowfigure\model\tool\ticket\ticketsql.rar" afterPath="$PROJECT_DIR$/src/com/sf/model/ticket/ticketsql.rar" />
-      <change type="MOVED" beforePath="C:\dev\My_Projects\tools\src\com\snowfigure\nav\config\C.java" afterPath="$PROJECT_DIR$/src/com/sf/config/NavConfig.java" />
-      <change type="MOVED" beforePath="C:\dev\My_Projects\tools\src\com\snowfigure\tool\ToolRoute.java" afterPath="$PROJECT_DIR$/src/com/sf/route/ToolRoute.java" />
-      <change type="MOVED" beforePath="C:\dev\My_Projects\tools\src\com\snowfigure\tool\bean\Info.java" afterPath="$PROJECT_DIR$/src/com/sf/bean/Info.java" />
-      <change type="MOVED" beforePath="C:\dev\My_Projects\tools\src\com\snowfigure\tool\bean\ticket\LeftTicket.java" afterPath="$PROJECT_DIR$/src/com/sf/bean/ticket/LeftTicket.java" />
-      <change type="MOVED" beforePath="C:\dev\My_Projects\tools\src\com\snowfigure\tool\bean\ticket\QueryLeftNewDTO.java" afterPath="$PROJECT_DIR$/src/com/sf/bean/ticket/QueryLeftNewDTO.java" />
-      <change type="MOVED" beforePath="C:\dev\My_Projects\tools\src\com\snowfigure\tool\bean\ticket\Station.java" afterPath="$PROJECT_DIR$/src/com/sf/bean/ticket/Station.java" />
-      <change type="MOVED" beforePath="C:\dev\My_Projects\tools\src\com\snowfigure\tool\config\C.java" afterPath="$PROJECT_DIR$/src/com/sf/config/ToolsConfig.java" />
-      <change type="MOVED" beforePath="C:\dev\My_Projects\tools\src\com\snowfigure\tool\controller\ApidocsController.java" afterPath="$PROJECT_DIR$/src/com/sf/controller/apidoc/ApidocsController.java" />
-      <change type="MOVED" beforePath="C:\dev\My_Projects\tools\src\com\snowfigure\tool\controller\EncryptController.java" afterPath="$PROJECT_DIR$/src/com/sf/controller/tools/EncryptController.java" />
-      <change type="MOVED" beforePath="C:\dev\My_Projects\tools\src\com\snowfigure\tool\controller\FormatController.java" afterPath="$PROJECT_DIR$/src/com/sf/controller/tools/FormatController.java" />
-      <change type="MOVED" beforePath="C:\dev\My_Projects\tools\src\com\snowfigure\tool\controller\LifeController.java" afterPath="$PROJECT_DIR$/src/com/sf/controller/tools/LifeController.java" />
-      <change type="MOVED" beforePath="C:\dev\My_Projects\tools\src\com\snowfigure\tool\controller\SiteController.java" afterPath="$PROJECT_DIR$/src/com/sf/controller/tools/SiteController.java" />
-      <change type="MOVED" beforePath="C:\dev\My_Projects\tools\src\com\snowfigure\tool\controller\TicketController.java" afterPath="$PROJECT_DIR$/src/com/sf/controller/ticket/TicketController.java" />
-      <change type="MOVED" beforePath="C:\dev\My_Projects\tools\src\com\snowfigure\tool\service\Encrypt_Number_Confuse.java" afterPath="$PROJECT_DIR$/src/com/sf/service/tools/Encrypt_Number_Confuse.java" />
-      <change type="MOVED" beforePath="C:\dev\My_Projects\tools\src\com\snowfigure\tool\service\Life_Weather_Service.java" afterPath="$PROJECT_DIR$/src/com/sf/service/tools/Life_Weather_Service.java" />
-      <change type="MOVED" beforePath="C:\dev\My_Projects\tools\src\com\snowfigure\tool\service\Life_idcard_Service.java" afterPath="$PROJECT_DIR$/src/com/sf/service/idcard/Life_idcard_Service.java" />
-      <change type="MOVED" beforePath="C:\dev\My_Projects\tools\src\com\snowfigure\tool\service\Site_Url_Service.java" afterPath="$PROJECT_DIR$/src/com/sf/service/tools/Site_Url_Service.java" />
-      <change type="MOVED" beforePath="C:\dev\My_Projects\tools\src\com\snowfigure\tool\service\Ticket_Filter_12306_Service.java" afterPath="$PROJECT_DIR$/src/com/sf/service/ticket/Ticket_Filter_12306_Service.java" />
-      <change type="MOVED" beforePath="C:\dev\My_Projects\tools\src\readme\yui" afterPath="$PROJECT_DIR$/src/com/sf/kits/yui/yui" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Start/RequestURL.java" afterPath="$PROJECT_DIR$/src/Start/RequestURL.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/a_little_config.txt" afterPath="$PROJECT_DIR$/src/a_little_config.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sf/service/nav/NavService.java" />
+      <change type="MOVED" beforePath="C:\dev\My_Projects\tools\src\com\sf\kits\jsoup\Bean.java" afterPath="$PROJECT_DIR$/src/com/sf/service/cmmobile/Bean.java" />
+      <change type="MOVED" beforePath="C:\dev\My_Projects\tools\src\com\sf\kits\jsoup\Read.me" afterPath="$PROJECT_DIR$/src/com/sf/service/cmmobile/Read.me" />
+      <change type="MOVED" beforePath="C:\dev\My_Projects\tools\src\com\sf\kits\jsoup\W3cSchoolUtil.java" afterPath="$PROJECT_DIR$/src/com/sf/service/cmmobile/W3cSchoolUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/sf/model/apidocs/Apidocs.java" afterPath="$PROJECT_DIR$/src/com/sf/model/apidocs/Apidocs.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/sf/model/nav/Nav.java" afterPath="$PROJECT_DIR$/src/com/sf/model/nav/Nav.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/sf/controller/nav/NavCMSController.java" afterPath="$PROJECT_DIR$/src/com/sf/controller/nav/NavCMSController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/sf/config/ToolsConfig.java" afterPath="$PROJECT_DIR$/src/com/sf/config/ToolsConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/cms/Navs/index.html" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/cms/Navs/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jfinal_demo.log" afterPath="$PROJECT_DIR$/jfinal_demo.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/assets/encryp/ripemd160.js" afterPath="$PROJECT_DIR$/WebRoot/assets/encryp/ripemd160.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tool.iml" afterPath="$PROJECT_DIR$/tool.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/assets/cms/nav.js" afterPath="$PROJECT_DIR$/WebRoot/assets/cms/nav.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tool.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="f1b6869c-3c3e-4ae7-b68e-3bd8b28f0fab" time="1428138304266" ignored="false" />
+    <file path="/Dummy.txt" changelist="f1b6869c-3c3e-4ae7-b68e-3bd8b28f0fab" time="1428495427367" ignored="false" />
     <file path="/Read.md" changelist="f1b6869c-3c3e-4ae7-b68e-3bd8b28f0fab" time="1427954496525" ignored="false" />
     <file path="/_layout.html" changelist="f1b6869c-3c3e-4ae7-b68e-3bd8b28f0fab" time="1427980353588" ignored="false" />
     <file path="/index.html" changelist="f1b6869c-3c3e-4ae7-b68e-3bd8b28f0fab" time="1428124391939" ignored="false" />
@@ -126,7 +25,7 @@
     <file path="/a.dummy" changelist="f1b6869c-3c3e-4ae7-b68e-3bd8b28f0fab" time="1427980822603" ignored="false" />
     <file path="/NavController.java" changelist="f1b6869c-3c3e-4ae7-b68e-3bd8b28f0fab" time="1428138055284" ignored="false" />
     <file path="/ToolRoute.java" changelist="f1b6869c-3c3e-4ae7-b68e-3bd8b28f0fab" time="1428036196764" ignored="false" />
-    <file path="/fragment.java" changelist="f1b6869c-3c3e-4ae7-b68e-3bd8b28f0fab" time="1428142213568" ignored="false" />
+    <file path="/fragment.java" changelist="f1b6869c-3c3e-4ae7-b68e-3bd8b28f0fab" time="1428500940244" ignored="false" />
     <file path="/C.java" changelist="f1b6869c-3c3e-4ae7-b68e-3bd8b28f0fab" time="1428036793691" ignored="false" />
     <file path="/_layout.ftl" changelist="f1b6869c-3c3e-4ae7-b68e-3bd8b28f0fab" time="1428063647712" ignored="false" />
     <file path="/index.ftl" changelist="f1b6869c-3c3e-4ae7-b68e-3bd8b28f0fab" time="1428062158829" ignored="false" />
@@ -143,14 +42,16 @@
     <file path="/Config.java" changelist="f1b6869c-3c3e-4ae7-b68e-3bd8b28f0fab" time="1428117658311" ignored="false" />
     <file path="/a_little_config.txt" changelist="f1b6869c-3c3e-4ae7-b68e-3bd8b28f0fab" time="1428069746073" ignored="false" />
     <file path="/apidocs.js" changelist="f1b6869c-3c3e-4ae7-b68e-3bd8b28f0fab" time="1428118960011" ignored="false" />
-    <file path="/nav.js" changelist="f1b6869c-3c3e-4ae7-b68e-3bd8b28f0fab" time="1428124450099" ignored="false" />
-    <file path="/Nav.java" changelist="f1b6869c-3c3e-4ae7-b68e-3bd8b28f0fab" time="1428123080443" ignored="false" />
+    <file path="/nav.js" changelist="f1b6869c-3c3e-4ae7-b68e-3bd8b28f0fab" time="1428499050830" ignored="false" />
+    <file path="/Nav.java" changelist="f1b6869c-3c3e-4ae7-b68e-3bd8b28f0fab" time="1428501241390" ignored="false" />
     <file path="/banner.html" changelist="f1b6869c-3c3e-4ae7-b68e-3bd8b28f0fab" time="1428119431343" ignored="false" />
     <file path="/UrlController.java" changelist="f1b6869c-3c3e-4ae7-b68e-3bd8b28f0fab" time="1428138314643" ignored="false" />
     <file path="/IndexController.java" changelist="f1b6869c-3c3e-4ae7-b68e-3bd8b28f0fab" time="1428139191023" ignored="false" />
     <file path="/IpAddressUtil.java" changelist="f1b6869c-3c3e-4ae7-b68e-3bd8b28f0fab" time="1428139128108" ignored="false" />
     <file path="/ChinaMobileUtil.java" changelist="f1b6869c-3c3e-4ae7-b68e-3bd8b28f0fab" time="1428140295379" ignored="false" />
     <file path="/ChinaMobileService.java" changelist="f1b6869c-3c3e-4ae7-b68e-3bd8b28f0fab" time="1428140457965" ignored="false" />
+    <file path="/NavCMSController.java" changelist="f1b6869c-3c3e-4ae7-b68e-3bd8b28f0fab" time="1428498965318" ignored="false" />
+    <file path="/NavGetSiteInfoUtil.java" changelist="f1b6869c-3c3e-4ae7-b68e-3bd8b28f0fab" time="1428501321572" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,7 +110,37 @@
     <favorites_list name="tool" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="NavService.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/sf/service/nav/NavService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="8" selection-start="381" selection-end="381" vertical-scroll-proportion="0.3267571">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Nav.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sf/model/nav/Nav.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="20" selection-start="686" selection-end="695" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApidocsController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sf/controller/apidoc/ApidocsController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="64" selection-start="847" selection-end="902" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -228,13 +159,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/snowfigure/model/nav/Nav.java" />
-        <option value="$PROJECT_DIR$/WebRoot/WEB-INF/cms/Navs/index.html" />
-        <option value="$PROJECT_DIR$/WebRoot/assets/cms/nav.js" />
-        <option value="$PROJECT_DIR$/WebRoot/assets/cms/apidocs.js" />
-        <option value="$PROJECT_DIR$/src/com/snowfigure/cms/controller/NavController.java" />
-        <option value="$PROJECT_DIR$/src/com/snowfigure/cms/controller/UrlController.java" />
-        <option value="$PROJECT_DIR$/src/com/snowfigure/kits/net/IpAddressUtil.java" />
         <option value="$PROJECT_DIR$/src/com/snowfigure/tool/controller/IndexController.java" />
         <option value="$PROJECT_DIR$/src/com/snowfigure/model/tool/Cmnumber.java" />
         <option value="$PROJECT_DIR$/src/com/snowfigure/model/tool/Region.java" />
@@ -244,6 +168,13 @@
         <option value="$PROJECT_DIR$/src/com/snowfigure/kits/string/StringUtil.java" />
         <option value="$PROJECT_DIR$/src/com/snowfigure/tool/service/ChinaMobileService.java" />
         <option value="$PROJECT_DIR$/jfinal_demo.log" />
+        <option value="$PROJECT_DIR$/src/com/sf/config/ToolsConfig.java" />
+        <option value="$PROJECT_DIR$/WebRoot/WEB-INF/cms/Navs/index.html" />
+        <option value="$PROJECT_DIR$/WebRoot/assets/cms/nav.js" />
+        <option value="$PROJECT_DIR$/src/com/sf/kits/jsoup/NavGetSiteInfoUtil.java" />
+        <option value="$PROJECT_DIR$/src/com/sf/controller/nav/NavCMSController.java" />
+        <option value="$PROJECT_DIR$/src/com/sf/model/nav/Nav.java" />
+        <option value="$PROJECT_DIR$/src/com/sf/service/nav/NavService.java" />
       </list>
     </option>
   </component>
@@ -297,8 +228,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -307,18 +236,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tool" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tools" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -333,7 +254,7 @@
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/WebRoot/WEB-INF/lib/yui-rhino-1.6R7.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hwoj" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
@@ -350,17 +271,18 @@
       <recent name="C:\dev\My_Projects\tools\src\com\snowfigure\model\tool" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\dev\My_Projects\tools\src\com\sf\service\cmmobile" />
       <recent name="C:\dev\My_Projects\tools\src\com\sf\kits\yui" />
       <recent name="C:\dev\My_Projects\tools\src\com\sf\model\ticket" />
       <recent name="C:\dev\My_Projects\tools\WebRoot\assets\cms" />
       <recent name="C:\dev\My_Projects\tools\WebRoot\WEB-INF\nav" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.sf.service.cmmobile" />
+      <recent name="com.sf.service.nav" />
       <recent name="com.sf.kits" />
       <recent name="com.snowfigure.kits" />
       <recent name="com.sf.bean" />
-      <recent name="com.sf.service.cmmobile" />
-      <recent name="com.sf.service.idcard" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.snowfigure.cms.controller" />
@@ -501,6 +423,11 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SliceManager">
+    <option name="analysisUIOptions">
+      <AnalysisUIOptions />
+    </option>
+  </component>
   <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
     <option name="USER" value="" />
     <option name="PASSWORD" value="" />
@@ -561,7 +488,11 @@
       <created>1428065649992</created>
       <updated>1428065649992</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="重新整理目录结构&#10;   由com.snowfigure.*变成com.sf.*">
+      <created>1428142417470</created>
+      <updated>1428142417470</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -594,13 +525,13 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42261904" sideWeight="0.49025974" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.8119048" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22142857" sideWeight="0.29545453" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39166668" sideWeight="0.30357143" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33095238" sideWeight="0.6988636" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2345238" sideWeight="0.6907467" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297619" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30844155" sideWeight="0.6690476" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28814936" sideWeight="0.6797619" order="0" side_tool="false" content_ui="combo" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32023808" sideWeight="0.49675325" order="1" side_tool="false" content_ui="tabs" />
@@ -653,7 +584,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改READ.MD" />
+    <option name="LAST_COMMIT_MESSAGE" value="重新整理目录结构&#10;   由com.snowfigure.*变成com.sf.*" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -676,6 +607,7 @@
     <MESSAGE value="FreeMarker模板变更--修改HTML模板后缀名-2" />
     <MESSAGE value="新增：导航页，完成初步框架" />
     <MESSAGE value="修改READ.MD" />
+    <MESSAGE value="重新整理目录结构&#10;   由com.snowfigure.*变成com.sf.*" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -685,123 +617,115 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/sf/kits/chinaMobile/ChinaMobileUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="40" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#379#396#0" expanded="true" />
-            <element signature="e#1351#1368#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sf/service/cmmobile/ChinaMobileService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="54" selection-start="422" selection-end="422" vertical-scroll-proportion="0.38591117">
-          <folding>
-            <element signature="e#2972#2999#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sf/bean/cmmobile/ChinaMobileBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="32" selection-start="7" selection-end="32" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sf/bean/ticket/Station.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sf/model/menu/Menu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="13" selection-start="1056" selection-end="1056" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sf/model/faceks/FaceksCatalog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sf/model/faceks/FaceksImg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="189" selection-end="189" vertical-scroll-proportion="0.1294698">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sf/config/ToolsConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sf/config/Config.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="13" selection-start="680" selection-end="680" vertical-scroll-proportion="0.0">
+        <state line="32" column="44" selection-start="877" selection-end="877" vertical-scroll-proportion="0.525" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/jfinal-1.9-bin-with-src.jar!/com/jfinal/plugin/activerecord/Model.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="19" selection-start="3510" selection-end="3510" vertical-scroll-proportion="0.34837544">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sf/controller/apidoc/ApidocCMSController.java">
+    <entry file="file://$PROJECT_DIR$/src/com/sf/kits/chinaMobile/ChinaMobileUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="237" selection-end="237" vertical-scroll-proportion="0.14549938">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="8" column="13" selection-start="261" selection-end="261" vertical-scroll-proportion="-1.277027">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sf/controller/tools/ContrastController.java">
+    <entry file="file://$PROJECT_DIR$/src/a_little_config.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="162" selection-end="162" vertical-scroll-proportion="0.093711466">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sf/service/cmmobile/W3cSchoolUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="51" selection-start="928" selection-end="928" vertical-scroll-proportion="0.5320946">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/assets/cms/cms.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="30" selection-start="390" selection-end="390" vertical-scroll-proportion="0.03626943">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/cms/Navs/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="71" selection-start="1148" selection-end="1153" vertical-scroll-proportion="-9.692307">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sf/kits/net/HttpsRequestUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="76" selection-start="1326" selection-end="1354" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sf/service/cmmobile/Read.me">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sf/controller/nav/NavCMSController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="16" selection-start="1199" selection-end="1199" vertical-scroll-proportion="0.36621454">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/assets/cms/nav.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="141" column="47" selection-start="4895" selection-end="4895" vertical-scroll-proportion="2.1812577">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sf/service/cmmobile/Bean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="47" selection-end="47" vertical-scroll-proportion="0.051787917">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sf/service/tools/Encrypt_Number_Confuse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="153" selection-end="153" vertical-scroll-proportion="-0.26880395">
+        <state line="8" column="13" selection-start="146" selection-end="146" vertical-scroll-proportion="0.1294698">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sf/bean/Info.java">
+    <entry file="file://$PROJECT_DIR$/src/com/sf/controller/apidoc/ApidocsController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="48" selection-end="48" vertical-scroll-proportion="0.025893958">
+        <state line="34" column="64" selection-start="847" selection-end="902" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/sf/model/nav/Nav.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="32" selection-start="604" selection-end="604" vertical-scroll-proportion="0.525">
+        <state line="21" column="20" selection-start="686" selection-end="695" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sf/kits/yui/yui">
+    <entry file="file://$PROJECT_DIR$/src/com/sf/service/nav/NavService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jfinal_demo.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="17" column="8" selection-start="381" selection-end="381" vertical-scroll-proportion="0.3267571">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

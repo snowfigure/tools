@@ -19,5 +19,9 @@ public class Nav extends Model<Nav>{
         return me.paginate(page, rows, "select n1.*,n2.`name` pname",
                 " from nav n1,nav n2 where n1.pid = n2.id and n1.pid>1")  ;
     }
+    public List<Nav> getCatalog()
+    {
+        return me.find("select * from nav where pid = 1 order by urlorder");
+    }
 
 }

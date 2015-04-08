@@ -3,6 +3,7 @@ package com.sf.controller.nav;
 import java.util.List;
 import com.jfinal.core.Controller;
 import com.jfinal.plugin.activerecord.Page;
+import com.sf.service.nav.NavService;
 import com.sf.model.nav.Nav;
 import com.sf.kits.easyui.DataGridJson;
 
@@ -34,5 +35,37 @@ public class NavCMSController extends Controller{
     public void add()
     {
         renderText(getModel(Nav.class).save() + "");
+    }
+    public void getTitle()
+    {
+        String url = getPara("url",null);
+        if(null == url)
+        {
+            renderText("false");
+        }
+        else
+        {
+            renderText(NavService.getSiteTitle(url));
+        }
+    }
+    public void del()
+    {
+        int id = getParaToInt(0,0);
+        if(id==0)
+        {
+            renderText("false");
+        }
+        else
+        {
+            boolean flag = Nav.me.deleteById(id);
+            if(flag)
+            {
+                renderText("true");
+            }
+            else
+            {
+                renderText("false");
+            }
+        }
     }
 }

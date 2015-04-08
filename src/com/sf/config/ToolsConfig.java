@@ -44,6 +44,6 @@ public class ToolsConfig {
 	public static String H_MEITUPS = "/WEB-INF/tool/life/meitups.html";
 	public static String H_IDCARD = "/WEB-INF/tool/life/idcard.html";
 	public static String H_WEATHER = "/WEB-INF/tool/life/weather.html";
-	public static String H_APIDOCS = "/WEB-INF/tool/apidoc/index.ftl";
+	public static String H_APIDOCS = "/WEB-INF/tool/apidoc/index.html";
 	
 }

@@ -1,4 +1,4 @@
-package com.sf.kits.jsoup;
+package com.sf.service.cmmobile;
 
 import java.io.IOException;
 import java.util.ArrayList;

@@ -34,16 +34,6 @@ $(function(){
             }
 
         },{
-            text:"修改",
-            iconCls: 'icon-edit',
-            handler: function(){
-                var row = $('#nav_dg').datagrid("getSelected");
-                if(row==null){
-                    $.messager.alert('错误','请选择一条记录！','info');
-                }
-                // detail("/cms/nav/edit/","编辑",row);
-            }
-        },{
             text:"删除",
             iconCls: 'icon-remove',
             handler: function(){
@@ -101,6 +91,7 @@ $(function(){
         displayMsg: '当前显示 {from} - {to} 条记录   共 {total} 条记录'
     });
 
+
     $("#detail").dialog({}).dialog("close");
 
     function detail(submiturl,title,row){
@@ -142,10 +133,22 @@ $(function(){
                         $.messager.alert('错误','请输入名称','info');
                     }else{
                         $("form").submit();
-
                     }
                 }
-            },{
+            },
+            {
+                text:'抽取title',
+                handler:function(){ /** 新增对话框中的关闭按钮 */
+                    $.ajax({
+                        type:'post',
+                        url:'/cms/nav/getTitle?url=' + $('#_url').val()  ,
+                        success:function(data){
+                            $("#_info").val(data);
+                        }
+                    });
+                }
+            },
+            {
                 text:'关闭',
                 handler:function(){ /** 新增对话框中的关闭按钮 */
                 $("#detail").dialog("close");

@@ -1,4 +1,4 @@
-package com.sf.kits.jsoup;
+package com.sf.service.cmmobile;
 
 public class Bean {
 	private String title;
