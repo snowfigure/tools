@@ -1,0 +1,52 @@
+<#include "/WEB-INF/comm/_layout.ftl"/>
+<@layout info>
+
+<div class="panel panel-default">
+	<div class="panel-heading">
+		QQ头像加密字符串暴力还原
+	</div>
+	<div class="panel-body">
+		<div class="col-xs-12 col-sm-6 col-md-9">
+			<input type="text" class="form-control" id="code" placeholder="请输入待还原的QQ头像文件名" value="5FF01F1D67A32255757BF395588C3808">
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-3">
+			<button type="button" class="btn btn-info btn-block" id='search'>QQ号码还原</button>
+		</div>
+	</div>
+	<div class="panel-body">
+		<div class="alert alert-success" id="result">号码还原结果</div>
+	</div>
+</div>
+
+</@layout>
+<script src="/assets/encryp/md5.js"></script>
+
+<script type="text/javascript">
+	$(function(){
+		$('#search').bind("click",function(){
+			var no = $("#code").val();
+			if(no==null || no=="" || no=="undefined"){
+				$("#code").focus();
+				$("#result").text('号码还原结果');
+				return;
+			}
+			var common_md5 = hex_md5(no);
+			for(var qq=100000000;qq<2000000000;qq++)
+			{
+				var res1 = hex_md5(qq);
+				var res2 = hex_md5(res1 + qq);
+				var res3 = hex_md5(res2 + qq);
+				if(no.toUpperCase() == res3.toUpperCase())
+				{
+					$("#result").text('号码还原结果：'+qq);
+					return;
+				}
+				console.log(qq + "  不是最终结果");
+			}
+
+			$("#result").text('号码还原结果：无法查询到结果');
+		});
+	});
+
+</script>
+

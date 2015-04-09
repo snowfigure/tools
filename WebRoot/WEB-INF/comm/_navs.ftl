@@ -34,6 +34,7 @@
    		<li><a href="/encrypt/ecp">通用加密工具</a></li>
    		<li><a href="/encrypt/morse">摩斯密码翻译工具</a></li>
    		<li><a href="/encrypt/barcode">条码生成器</a></li>
+        <li><a href="/encrypt/ideaKeygen">IDEA注册码生成器</a></li>
    		
    </ul>
 </li>

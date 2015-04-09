@@ -8,6 +8,8 @@ public class ToolsConfig {
 	public static String T_RGB = "RGB颜色表|RGB拾色器|WEB页面设计颜色";
 	public static String T_ASCII = "ASCII码对照表|ASCII码表";
 	public static String T_TUP = "TCP端口|UDP端口|著名端口|UNIX特有端口|注册的端口|数据报传递协议端口|未注册的端口";
+	public static String T_QQIMG = "MD5加密|MD4加密|SHA1加密|SHA-2 256加密|SHA-2 512加密";
+	public static String T_IDEAKEYGEN = "IntelliJ IDEA 注册码生成器";
 	public static String T_ECP = "MD5加密|MD4加密|SHA1加密|SHA-2 256加密|SHA-2 512加密";
 	public static String T_BARCODE = "在线免费生成条码|线性条码|二维条码|GS1 DataBar|邮政条码";
 	public static String T_MORSE = "在线摩斯密码翻译器|摩斯密码转换";
@@ -31,6 +33,8 @@ public class ToolsConfig {
 	public static String H_ASCII = "/WEB-INF/tool/contrast/ASCII_Refe.html";
 	public static String H_TUP = "/WEB-INF/tool/contrast/tcp_udp_port.html";
 	public static String H_ECP = "/WEB-INF/tool/encrypt/encrypt.html";
+	public static String H_QQIMG = "/WEB-INF/tool/encrypt/qqimg.html";
+	public static String H_IDEAKEYGEN = "/WEB-INF/tool/encrypt/ideaKeygen.ftl";
 	public static String H_BARCODE = "/WEB-INF/tool/encrypt/barcode.html";
 	public static String H_MORSE = "/WEB-INF/tool/encrypt/morse.html";//MORSE
 	public static String H_JS = "/WEB-INF/tool/format/js.html";

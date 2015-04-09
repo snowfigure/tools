@@ -27,4 +27,5 @@ public class Bean {
 	public void setUrl(String url) {
 		this.url = url;
 	}
+
 }

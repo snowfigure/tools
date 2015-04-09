@@ -33,7 +33,7 @@
                     <td><a href="/encrypt/ecp">通用化加密</a></td>
                     <td><a href="/encrypt/barcode">条码生成</a></td>
                     <td><a href="/encrypt/morse">摩斯密码翻译</a></td>
-                    <td></td>
+                    <td><a href="/encrypt/ideaKeygen">IDEA注册码</a></td>
                 </tr>
                 <tr>
                     <th rowspan=2>便民生活</a></th>
