@@ -14,6 +14,13 @@ public class NavCMSController extends Controller{
 	public void index(){
 		render("/WEB-INF/cms/Navs/index.html");
 	}
+    public void init()
+    {
+        System.out.println("loading...");
+        NavService.initNavPage();
+        renderText("初始化成功");
+    }
+
     @SuppressWarnings({ "rawtypes", "unchecked" })
     public void list(){
         int page = getParaToInt("page", 1);

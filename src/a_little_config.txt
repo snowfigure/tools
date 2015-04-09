@@ -1,13 +1,13 @@
-jdbcUrl = jdbc:mysql://localhost/tools?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull
-user = root
-password =a43561e336
-devMode = true
-
-
-#jdbcUrl = jdbc:mysql://localhost:3619/tools_791211?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull
+#jdbcUrl = jdbc:mysql://localhost/tools?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull
 #user = root
-#password =FdqLbf791211
+#password =a43561e336
 #devMode = true
+
+
+jdbcUrl = jdbc:mysql://localhost:3619/tools_791211?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull
+user = root
+password =FdqLbf791211
+devMode = true
 
 
 

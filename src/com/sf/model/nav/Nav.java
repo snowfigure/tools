@@ -10,9 +10,17 @@ public class Nav extends Model<Nav>{
     {
         return me.find("select * from nav where pid not in (0,1)");
     }
+    public List<Nav>  getCommNavs()
+    {
+        return me.find("select * from nav where pid = 9 or iscomm=1 order by urlorder");
+    }
+    public List<Nav>  getSubNavs(int pid)
+    {
+        return me.find("select * from nav where pid=? order by urlorder",pid);
+    }
     public List<Nav> getNavPlist()
     {
-        return me.find("select id , name from nav where pid = 1 order by urlorder");
+        return me.find("select * from nav where pid = 1 order by urlorder");
     }
     public Page<Nav> paginate(int rows,int page)
     {

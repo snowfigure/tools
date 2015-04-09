@@ -10,7 +10,7 @@
 $(function(){
 
     $('#nav_dg').datagrid({
-        url:'/nav/list',
+        url:'/cms/nav/list',
         columns:[[
             {field:'id',			title:'id',				width:$(this).width() * 0.1,hidden:true},
             {field:'pid',			title:'pid',				width:$(this).width() * 0.1,hidden:true},
@@ -23,14 +23,14 @@ $(function(){
         singleSelect:true,//是否单选
         rownumbers:true,//行号
         onDblClickRow:function(index,row){
-            detail("/nav/edit/","编辑",row);
+            detail("/cms/nav/edit/","编辑",row);
         },
         toolbar: [{
             /** 点击新增按钮 */
             text:"新增",
             iconCls: 'icon-add',
             handler: function(){
-                detail("/nav/add/","新增");
+                detail("/cms/nav/add/","新增");
             }
 
         },{
@@ -46,7 +46,7 @@ $(function(){
                     if (r){
                         $.ajax({
                             type:'POST',
-                            url:'/nav/del/' + row.id,
+                            url:'/cms/nav/del/' + row.id,
                             success:function(data){
                                 if(data=="true"){
                                     $.messager.alert('成功','删除成功！','info');
@@ -68,7 +68,7 @@ $(function(){
                     if(r){//给成r
                         $.ajax({
                             type:'post',
-                            url:'/nav/init',
+                            url:'/cms/nav/init',
                             dataType:'json',
                             success:function(data){
                                 $.messager.alert('提示',data,'info');
@@ -140,7 +140,7 @@ $(function(){
                 handler:function(){ /** 新增对话框中的关闭按钮 */
                     $.ajax({
                         type:'post',
-                        url:'/nav/getTitle?url=' + $('#_url').val()  ,
+                        url:'/cms/nav/getTitle?url=' + $('#_url').val()  ,
                         success:function(data){
                             $("#_info").val(data);
                         }

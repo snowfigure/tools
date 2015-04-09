@@ -1,4 +1,5 @@
-<div class="btn btn-info" id="0">常用网址</div>
+
+<div class="btn btn-info" >常用网址</div>
 <div style="clear: both"></div>
 <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
     <div class="link-box">
